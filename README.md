@@ -4,22 +4,22 @@ Cahier des charges pour l'application de jeu (AdonisJS backend, React Native fro
 
 #### 1. Authentification via Spotify :
 
-- Endpoint : `/signin`
+- ✅ Endpoint : `/signin`
 - Description : Permet à l'utilisateur de s'authentifier à l'aide de son compte Spotify.
 
 #### 2. Redirection Spotify :
 
-- Endpoint : `/signin-callback`
+- ✅ Endpoint : `/signin-callback`
 - Description : URL vers laquelle Spotify redirige après l'authentification.
 
 #### 3. Déconnexion :
 
-- Endpoint : `/logout`
+- ✅ Endpoint : `/logout`
 - Description : Permet à l'utilisateur de se déconnecter de l'application.
 
 #### 4. Création d'une partie :
 
-- Endpoint : `/create-insert`
+- ✅ Endpoint : `/create-party`
 - Description : Crée une nouvelle partie en prenant en compte les choix de l'utilisateur (nombre de participants, nombre de musiques parmi 3, 5 ou 7).
 
 #### 5. Choix des musiques :
@@ -39,7 +39,7 @@ Cahier des charges pour l'application de jeu (AdonisJS backend, React Native fro
 
 #### 8. Suppression du compte :
 
-- Endpoint : `/delete-user`
+- ✅ Endpoint : `/delete-user`
 - Description : Permet à l'utilisateur de supprimer son compte.
 
 ### Partie Frontend (React Native) :
