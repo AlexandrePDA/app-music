@@ -32,6 +32,7 @@ Route.group(() => {
   Route.post('/logout', 'UsersController.logout')
 
   Route.post('/create-party', 'PartiesController.createParty').middleware('auth')
+  Route.post('/create-player', 'PlayersController.createPlayer').middleware('auth')
 
   Route.delete('/delete-user', 'UsersController.deleteUser').middleware('auth')
 }).prefix('api')
